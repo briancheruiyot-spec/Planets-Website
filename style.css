@@ -1,0 +1,55 @@
+body {
+  background-image: url(https://www.vice.com/wp-content/uploads/sites/2/2022/03/1646949314735-screen-shot-2022-03-10-at-45440-pm.png);
+  background-color: black;
+  color: white;
+  font-family: Roboto, sans-serif;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.5s ease, color 0.5s;
+}
+.heading-1 {
+  text-align: center;
+  font-size: 70px;
+  color: red;
+}
+.heading-2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.navbar-list {
+  display: flex;
+  font-weight: 900;
+  font-size: 20px;
+  justify-content: space-between;
+  height: 50px;
+  background-color: red;
+  margin-right: 10px;
+}
+#navbar-list {
+  cursor: pointer;
+}
+#toggle-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#toggle-button:hover{
+  opacity: 0.8;
+}
+#toggle-button:active{
+  opacity: 0.6;
+}
+.light-mode {
+  background-image: none;
+  background-color: white;
+  color: black;
+}
